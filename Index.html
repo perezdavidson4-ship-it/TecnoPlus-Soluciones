@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TecnoPlus Soluciones</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__wrap">
+      <a href="index.html" class="brand">
+        <img src="https://sdmntprwestcentralus.oaiusercontent.com/files/00000000-22fc-61fb-907e-db2bd82e9c61/raw?se=2025-08-14T23%3A02%3A55Z&sp=r&sv=2024-08-04&sr=b&scid=cea194c8-2e5d-54a3-a8c0-9d4e0a1a3ebf&skoid=5cab1ff4-c20d-41dc-babb-df0c2cc21dd4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-14T19%3A28%3A52Z&ske=2025-08-15T19%3A28%3A52Z&sks=b&skv=2024-08-04&sig=zqe%2BlpozEMxlkCKN/u5tWia75w0TY2hVdEWI2%2BW9Zg8%3D" alt="TecnoPlus Logo" class="brand__logo"/>
+        <span class="brand__name">TecnoPlus Soluciones</span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="quienes-somos.html">Nosotros</a>
+        <a href="portafolio.html">Portafolio</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="resenas.html" class="btn btn--outline">Reseñas</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero observe">
+    <div class="container hero__content">
+      <h1>Transformamos fallas en confianza</h1>
+      <p>Reparación de celulares, neveras, aires acondicionados y equipos electrónicos — rápido, seguro y profesional.</p>
+      <div class="hero__cta">
+        <a class="btn" href="#servicios">Descubre nuestros servicios</a>
+        <a class="btn btn--ghost" href="https://wa.me/573222524024" target="_blank" rel="noopener">Asesoría por WhatsApp</a>
+      </div>
+    </div>
+    <div class="hero__bg"></div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="services observe">
+    <div class="container">
+      <h2 class="section__title">Nuestros Servicios</h2>
+
+      <div class="grid cards">
+        <article class="card">
+          <div class="card__icon">
+            <!-- móvil -->
+            <svg viewBox="0 0 24 24" role="img" aria-label="Celular"><path fill="currentColor" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v14h10V5H7zm5 14.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5z"/></svg>
+          </div>
+          <h3>Reparación de celulares</h3>
+          <p>Cambio de pantalla y batería, pines de carga, diagnóstico y más.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__icon">
+            <!-- nieve/AC -->
+            <svg viewBox="0 0 24 24" role="img" aria-label="Aire acondicionado"><path fill="currentColor" d="M3 7h18v4H3V7zm0 6h18v2H3v-2zm4 4h10v2H7v-2z"/></svg>
+          </div>
+          <h3>Aires acondicionados</h3>
+          <p>Mantenimiento, reparación e instalación residencial y comercial.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__icon">
+            <!-- engranaje -->
+            <svg viewBox="0 0 24 24" role="img" aria-label="Equipos electrónicos"><path fill="currentColor" d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm9.4 4c0-.54-.05-1.08-.15-1.6l2.12-1.65-2-3.46-2.55 1a8.4 8.4 0 0 0-2.77-1.6L13.6 1h-3.2l-.45 2.69a8.4 8.4 0 0 0-2.77 1.6l-2.55-1-2 3.46L4.75 10.4A8.3 8.3 0 0 0 4.6 12c0 .54.05 1.08.15 1.6l-2.12 1.65 2 3.46 2.55-1a8.4 8.4 0 0 0 2.77 1.6l.45 2.69h3.2l.45-2.69a8.4 8.4 0 0 0 2.77-1.6l2.55 1 2-3.46-2.12-1.65c.1-.52.15-1.06.15-1.6z"/></svg>
+          </div>
+          <h3>Equipos electrónicos</h3>
+          <p>Mantenimiento y reparación para garantizar un funcionamiento óptimo.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq observe">
+    <div class="container">
+      <h2 class="section__title">Preguntas Frecuentes</h2>
+
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="true">¿Qué dispositivos reparan?</button>
+        <div class="faq__a open">
+          <p>Celulares, laptops, PCs, aires acondicionados y diversos equipos electrónicos.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false">¿Tienen garantía?</button>
+        <div class="faq__a">
+          <p>Sí. Las garantías varían por servicio (pantalla, batería, pines, AC, etc.). Se detallan en la factura.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false">¿Cómo pido un presupuesto?</button>
+        <div class="faq__a">
+          <p>Escríbenos por <a href="https://wa.me/573222524024" target="_blank" rel="noopener">WhatsApp</a> o desde la página de <a href="contacto.html">Contacto</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer observe">
+    <div class="container footer__grid">
+      <div>
+        <div class="brand brand--footer">
+          <img src="https://sdmntprwestcentralus.oaiusercontent.com/files/00000000-22fc-61fb-907e-db2bd82e9c61/raw?se=2025-08-14T23%3A02%3A55Z&sp=r&sv=2024-08-04&sr=b&scid=cea194c8-2e5d-54a3-a8c0-9d4e0a1a3ebf&skoid=5cab1ff4-c20d-41dc-babb-df0c2cc21dd4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-14T19%3A28%3A52Z&ske=2025-08-15T19%3A28%3A52Z&sks=b&skv=2024-08-04&sig=zqe%2BlpozEMxlkCKN/u5tWia75w0TY2hVdEWI2%2BW9Zg8%3D" alt="TecnoPlus Logo" class="brand__logo"/>
+          <span class="brand__name">TecnoPlus Soluciones</span>
+        </div>
+        <p>Calidad, eficiencia y tu tranquilidad.</p>
+      </div>
+
+      <nav class="footer__nav">
+        <a href="quienes-somos.html">Nosotros</a>
+        <a href="portafolio.html">Portafolio</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="resenas.html">Reseñas</a>
+      </nav>
+
+      <div class="social">
+        <a href="https://wa.me/573222524024" target="_blank" aria-label="WhatsApp">WA</a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram">IG</a>
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">FB</a>
+      </div>
+    </div>
+    <div class="footer__copy">© 2025 TecnoPlus Soluciones — Todos los derechos reservados</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

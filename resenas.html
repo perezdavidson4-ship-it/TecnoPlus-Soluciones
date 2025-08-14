@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reseñas - TecnoPlus Soluciones</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__wrap">
+      <a href="index.html" class="brand">
+        <img src="img/logo.png" alt="Logo" class="brand__logo"/>
+        <span class="brand__name">TecnoPlus Soluciones</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="quienes-somos.html">Nosotros</a>
+        <a href="portafolio.html">Portafolio</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero observe">
+    <div class="container">
+      <h1>Reseñas</h1>
+      <p>Tu opinión nos ayuda a mejorar.</p>
+    </div>
+  </section>
+
+  <section class="container reviews observe">
+    <div class="reviews__form">
+      <h2>Deja tu reseña</h2>
+      <form id="reviewForm" autocomplete="on">
+        <div class="field">
+          <label for="rName">Nombre</label>
+          <input id="rName" type="text" placeholder="Tu nombre" required/>
+        </div>
+        <div class="field">
+          <label for="rEmail">Correo</label>
+          <input id="rEmail" type="email" placeholder="tu@correo.com" required/>
+        </div>
+        <div class="field">
+          <label for="rText">Reseña</label>
+          <textarea id="rText" rows="4" placeholder="¿Cómo te fue con nosotros?" required></textarea>
+        </div>
+        <button class="btn" type="submit">Enviar reseña</button>
+      </form>
+    </div>
+
+    <div class="reviews__list" id="reviewsList">
+      <!-- Reseñas renderizadas por JS -->
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="brand brand--footer">
+        <img src="https://sdmntprwestcentralus.oaiusercontent.com/files/00000000-22fc-61fb-907e-db2bd82e9c61/raw?se=2025-08-14T23%3A02%3A55Z&sp=r&sv=2024-08-04&sr=b&scid=cea194c8-2e5d-54a3-a8c0-9d4e0a1a3ebf&skoid=5cab1ff4-c20d-41dc-babb-df0c2cc21dd4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-14T19%3A28%3A52Z&ske=2025-08-15T19%3A28%3A52Z&sks=b&skv=2024-08-04&sig=zqe%2BlpozEMxlkCKN/u5tWia75w0TY2hVdEWI2%2BW9Zg8%3D" alt="TecnoPlus Logo" class="brand__logo"/>
+        <span class="brand__name">TecnoPlus Soluciones</span>
+      </div>
+      <nav class="footer__nav">
+        <a href="index.html">Inicio</a>
+        <a href="quienes-somos.html">Nosotros</a>
+        <a href="portafolio.html">Portafolio</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+      <div class="social">
+        <a href="https://wa.me/573222524024" target="_blank">WA</a>
+        <a href="https://instagram.com" target="_blank">IG</a>
+        <a href="https://facebook.com" target="_blank">FB</a>
+      </div>
+    </div>
+    <div class="footer__copy">© 2025 TecnoPlus Soluciones</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
